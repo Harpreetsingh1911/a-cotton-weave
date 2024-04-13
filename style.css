@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    /* font-family: ; */
+    font-family: "Inter", sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 150px 0 0 0 ;
+    justify-content: space-around;
+    gap:50px;
+}
+.width-height{
+     width: 40%;
+ height: 100%;
+}
+.left{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left h1{
+    font-size: 5em ;
+    font-weight: 400;
+}
+.bottom-left{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.color{
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 15px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#color1{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: brown;
+}
+#color2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(182, 43, 204);
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details h4{
+    font-size: 20px;
+}
+.details p{
+    line-height: 25px;
+}
+
+.right{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    margin-top: 50px;
+    margin-right: 100px;
+    box-sizing: border-box;
+    
+}
+.right-top{
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.right img{
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
+    overflow: hidden;
+    scroll-behavior: none;
+    object-position: top;
+}
+.bag-cart{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+}
+.rotate{
+    position: absolute;
+    rotate: -90deg;
+    bottom: 25%;
+    font-size: 30px;
+    left: -35%;
+}
+.rotate h4{
+    font-weight: 400;
+}
